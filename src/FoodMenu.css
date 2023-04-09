@@ -1,0 +1,122 @@
+/* FoodMenu.css */
+.container {
+    
+  text-align: center;
+  padding: 300px;
+  height: 100%;
+  background-color: #F5EFE8;
+  margin-top: -295px;
+  
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #472c22;
+  margin-bottom: 20px;
+  
+}
+
+.menuList {
+  
+  list-style-type: none;
+  padding: 0;
+}
+
+.menuItem {
+
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+
+.menuItemTitle {
+
+  flex: 1;
+  font-size: 18px;
+  margin-right: 120px;
+  color: #472c22;
+}
+
+.menuItemDescription {
+  font-size: 14px;
+  color: #8e6d5a;
+  margin-right: 80px;
+}
+
+.menuItemPrice {
+  font-size: 16px;
+  font-weight: bold;
+  color: #472c22;
+  margin-right: 30px;
+}
+
+.quantityContainer {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+ 
+}
+
+.quantityButton {
+  width: 30px;
+  height: 30px;
+  background-color: #472c22;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  
+}
+
+.quantity {
+  margin: 0 10px;
+  font-size: 16px;
+  color: #472c22;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.quantityButton:hover {
+  background-color: #8e6d5a;
+}
+.button {
+  padding: 1rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #eea667;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+ 
+  transition: background-color 0.3s ease;
+  text-transform: uppercase; 
+} 
+
+
+.description {
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
+  color: #6B543E;
+  margin-top: -10px;
+}
+
+.backButton {
+  display: inline-block;
+  padding: 10px;
+  background-color: #472c22;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  margin-top: 42px;
+  margin-left: -1440px;
+  border-radius: 5px;
+  margin-top: -10px;
+}
+
+.backButton:hover {
+  background-color: #333;
+}

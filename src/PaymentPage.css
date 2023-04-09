@@ -1,0 +1,50 @@
+/* PaymentPage.css */
+
+.payment-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #F5EFE8; 
+}
+
+.title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-top: 0;
+  color: #573a28; 
+}
+
+.title2 {
+  font-size: 36px;
+  margin-top: 0;
+  color: #8b6e56; 
+}
+
+.qrcode-container {
+  margin-top: 30px;
+}
+
+.qrcode-image {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px; 
+}
+
+.button {
+  margin-top: 30px;
+  background-color: #573a28; 
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 12px 24px; 
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 5px; 
+}
+
+.button:hover {
+  background-color: #8b6e56;
+}
