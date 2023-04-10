@@ -1,4 +1,3 @@
-//PaymentPage.jsx
 import React from 'react';
 import './PaymentPage.css';
 import {Link} from 'react-router-dom'
@@ -6,22 +5,22 @@ import {Link} from 'react-router-dom'
 const PaymentPage = () => {
 return (
 <div className="payment-page-container">
-<h1 className="title">Payment</h1>
+<h1 className="titlep">Payment</h1>
 <h2 className="title2">Scan QR Code</h2>
 <div className="qrcode-container">
-<img
-       src="https://qrcode.in.th/wp-content/themes/QR-THEME/page-templates/assets/img/qr-code.svg" 
+<img   src="https://scontent.fbkk13-1.fna.fbcdn.net/v/t1.15752-9/338858345_759041509218183_7615128961182352104_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeGBY_vO6GWSmNcWt-eYkLIDMSh_GLmDDzExKH8YuYMPMY8Aj_4dMx24FZREZXvlrVpKN1mFWA1krjGNbRWTCDkd&_nc_ohc=-ou1TC4m2gkAX-8p_q5&_nc_ht=scontent.fbkk13-1.fna&oh=03_AdSDAVYvz0xZFQICkY6FiSrWO--63nW_GNSFNxAACgbhiw&oe=645A7629" 
        alt="QR Code"
        className="qrcode-image"
      />
 </div>
-{/* <p><button className="button">Home</button></p> */}
-<Link to = '/'><button className="button">
-  Comfirm
-        </button>
+<Link to = '/ThankYouPage'>
+  <button className="button">
+            Comfirm
+  </button>
 </Link>
+
+
 </div>
 );
 };
-
 export default PaymentPage;

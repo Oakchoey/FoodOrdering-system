@@ -2,7 +2,7 @@ import React from 'react';
 import HomePage from './HomePage';
 import FoodMenu from './FoodMenu';
 import PaymentPage from './PaymentPage';
-import BillPage from './BillPage';
+import ThankYouPage from './ThankYouPage';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 const App = () => {
@@ -15,7 +15,7 @@ return (
           <Route path='/'            element={<HomePage />} />
           <Route path='/FoodMenu'    element={<FoodMenu />} />
           <Route path='/PaymentPage' element={<PaymentPage />} />
-          <Route path='/BillPage'    element={<BillPage />} />
+          <Route path='/ThankYouPage'    element={<ThankYouPage />} />
         
         </Routes>
 </Router>

@@ -1,25 +1,38 @@
-/* PaymentPage.css */
-
 .payment-page-container {
+  text-align: center;
+  padding: 390px;
+  height: 100%;
+  background-image: url('./Picture/wall.jpg');
+  background-size:cover;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  height: 100vh;
-  background-color: #F5EFE8; 
+  align-items: center;
 }
 
-.title {
-  font-size: 48px;
+.titlep {
+  font-size: 90px;
   font-weight: bold;
-  margin-top: 0;
-  color: #573a28; 
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.2), 1px 1px 1px rgba(255, 255, 255, 0.2);
+  font-family: 'Roboto';
+  letter-spacing: 0.1rem;
+  
 }
 
 .title2 {
-  font-size: 36px;
-  margin-top: 0;
-  color: #8b6e56; 
+  font-size: 35px;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.2), 1px 1px 1px rgba(255, 254, 254, 0.2);
+  font-family: 'Roboto';
+  letter-spacing: 0.1rem;
+  
+  
 }
 
 .qrcode-container {
@@ -27,22 +40,24 @@
 }
 
 .qrcode-image {
-  width: 250px;
-  height: 250px;
-  border-radius: 10px; 
+  width: 560px;
+  height: 790px;
+  
 }
 
 .button {
   margin-top: 30px;
   background-color: #573a28; 
   color: #fff;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: bold;
-  padding: 12px 24px; 
+  padding: 30px 60px; 
   border: none;
   cursor: pointer;
+  text-transform: uppercase;
   transition: background-color 0.3s ease;
   border-radius: 5px; 
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.162), -1px -1px 3px rgba(0, 0, 0, 0.474);
 }
 
 .button:hover {

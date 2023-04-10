@@ -1,58 +1,59 @@
 .container1 {
   text-align: center;
-  padding: 300px;
+  padding: 390px;
   height: 100%;
-  background-color: #F5EFE8;
-  margin-top:  1px;
+  background-image: url('./Picture/wall.jpg');
+  background-size:cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.titleh {
+  font-size: 70px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.2), 1px 1px 1px rgba(255, 255, 255, 0.2);
+  font-family: 'Roboto';
+  letter-spacing: 0.1rem;
+  
+  }
+
+.descriptionh {
+  font-size: 18px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.2), 1px 1px 1px rgba(255, 255, 255, 0.2);
+  font-family: 'Tahoma';
+  letter-spacing: 0.1rem;
+ 
   
 }
 
-.title {
-  font-size: 3rem;
+.buttonh {
+  padding: 20px 40px;
+  font-size: 20px;
   font-weight: bold;
-  margin-bottom: 2rem;
-  color: #8B4513;
-  text-shadow: 1px 1px 2px rgba(0,0,0,0.2); 
-}
-
-.description {
-  font-size: 1.2rem;
-  margin-bottom: 3rem;
-  color: #6B543E;
-}
-
-.button {
-  padding: 1rem 2rem;
-  font-size: 1rem;
-  font-weight: bold;
-  background-color: #8B4513;
+  margin-top: 30px;
+  margin-right: 35px;
+  background: #573a28;
   color: #fff;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
-  text-transform: uppercase; 
+  text-transform: uppercase;
+  border: none;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.4), -1px -1px 3px rgba(0, 0, 0, 0.4);
 }
 
-.button:hover {
-  background-color: #6B543E;
-}
-
-.link {
-  text-decoration: none;
-  color: #8B4513;
-}
-
-.link:hover {
-  text-decoration: underline;
-}
-.restaurant-image {
-  margin-top: -280px;
-  width: 250px; 
-  height: 250px;
- 
+.restaurantlogo {
+  margin-right: 50px;
+  margin-top: -290px;
+  width: 380px; 
+  height: 380px;
   
+ 
 }

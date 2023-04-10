@@ -1,114 +1,161 @@
-/* FoodMenu.css */
-.container {
-    
+
+.food-menu {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 16px;
+  background-image: url('./Picture/menuwall.png');
+  
+  
+}
+
+
+.food-menu-title {
   text-align: center;
-  padding: 300px;
-  height: 100%;
-  background-color: #F5EFE8;
-  margin-top: -295px;
-  
-}
-
-.title {
-  font-size: 24px;
+  font-size: 45px;
   font-weight: bold;
-  color: #472c22;
-  margin-bottom: 20px;
+  color: #000000;
+  text-shadow: 0px 1px 1px rgba(0,0,0,0.1), 1px 1px 1px rgba(0, 0, 0, 0.1);
+  font-family: 'Roboto';
+  letter-spacing: 0.1rem;
   
 }
 
-.menuList {
-  
+.menu-items {
   list-style-type: none;
   padding: 0;
-}
-
-.menuItem {
-
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-  margin-right: 10px;
-}
-
-.menuItemTitle {
-
-  flex: 1;
-  font-size: 18px;
-  margin-right: 120px;
-  color: #472c22;
-}
-
-.menuItemDescription {
-  font-size: 14px;
-  color: #8e6d5a;
-  margin-right: 80px;
-}
-
-.menuItemPrice {
-  font-size: 16px;
-  font-weight: bold;
-  color: #472c22;
-  margin-right: 30px;
-}
-
-.quantityContainer {
-  display: flex;
-  align-items: center;
-  margin-left: 30px;
- 
-}
-
-.quantityButton {
-  width: 30px;
-  height: 30px;
-  background-color: #472c22;
-  color: #fff;
-  font-size: 18px;
-  font-weight: bold;
-  border: none;
-  border-radius: 50%;
-  cursor: pointer;
   
 }
 
-.quantity {
-  margin: 0 10px;
-  font-size: 16px;
-  color: #472c22;
-  margin-left: 20px;
-  margin-right: 20px;
+
+.menu-item {
+  display: flex;
+  font-size:150%;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-shadow: 0px 1px 1px rgba(0,0,0,0.1), 1px 1px 1px rgba(0, 0, 0, 0.1);
+  
 }
 
-.quantityButton:hover {
-  background-color: #8e6d5a;
+
+.item-info {
+  flex-grow: 1;
 }
-.button {
-  padding: 1rem 1rem;
-  font-size: 1rem;
-  font-weight: bold;
-  background-color: #eea667;
+
+
+.add-button {
+  background-color: #4caf50;
   color: #fff;
-  border-radius: 5px;
+  border: none;
+  padding: 13px 26px;
   cursor: pointer;
+  border: none;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.4), -1px -1px 3px rgba(0, 0, 0, 0.4);
+}
+
+
+.selected-items-title {
+  margin-top: 24px;
+  margin-bottom: 16px;
+  font-size:45px;
+  text-align: center;
+  font-family: 'Tahoma';
+  color: #000000;
+  
+}
+
+
+.selected-items {
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow: 3px 3px 3px rgba(240, 240, 240, 0.2);
+  font-family: 'Tahoma';
+  letter-spacing: 0.1rem;
+  
+}
+
+
+.selected-item {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  font-size:25px;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #4caf50;
+  font-family: 'Tahoma';
  
+  
+  
+}
+
+
+.remove-button {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border: none;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.4), -1px -1px 3px rgba(0, 0, 0, 0.4);
+}
+
+
+.total-price{
+  margin-top: 16px;
+  font-size:35px;
+  font-weight: bold;
+  
+  color: #000000;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2), 1px 1px 1px rgba(0, 0, 0, 0.2);
+  font-family: 'Tahoma';
+  
+}
+.total-calories {
+  margin-top: 16px;
+  font-size:20px;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2), 1px 1px 1px rgba(0, 0, 0, 0.2);
+  font-family: 'Tahoma';
+  
+}
+
+.buttonmenu {
+  margin-top: 30px;
+  margin-left: 360px;
+  background-color: #4caf50; 
+  color: #ffffff;
+  font-size: 24px;
+  align-items: center;
+  font-weight: bold;
+  padding: 25px 44px; 
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
   transition: background-color 0.3s ease;
-  text-transform: uppercase; 
+  border-radius: 5px; 
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.4), -1px -1px 3px rgba(0, 0, 0, 0.4);
 } 
 
-
-.description {
-  font-size: 1.2rem;
-  margin-bottom: 3rem;
-  color: #6B543E;
-  margin-top: -10px;
+.buttonmenu:hover {
+  background-color: #8b6e56;
 }
+
 
 .backButton {
   display: inline-block;
   padding: 10px;
   background-color: #472c22;
-  color: white;
+  color: rgb(255, 255, 255);
   text-decoration: none;
   font-size: 18px;
   margin-top: 42px;
@@ -117,6 +164,3 @@
   margin-top: -10px;
 }
 
-.backButton:hover {
-  background-color: #333;
-}
